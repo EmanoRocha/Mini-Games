@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  background: url(assets/bg-desktop-light.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+#palavra {
+  font-size: 24px;
+  margin: 20px;
+}
+
+#letrasTentadas, #tentativasRestantes {
+  margin: 10px;
+}
+
+#entradaLetra {
+  margin-top: 20px;
+  padding: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+}

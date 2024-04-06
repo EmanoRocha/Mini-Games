@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    font-family: Arial, sans-serif;
+    background: url(assets/bg-desktop-light.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+#tabuleiro {
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(3, 100px);
+    gap: 5px;
+}
+
+.celula {
+    background-color: #8d898956;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#mensagem {
+    margin-bottom: 20px;
+}
